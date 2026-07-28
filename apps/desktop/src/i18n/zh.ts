@@ -252,6 +252,7 @@ export const zh: Translations = {
       'view.toggleSidebar': '切换会话侧边栏',
       'view.toggleRightSidebar': '切换文件浏览器',
       'view.toggleReview': '切换审查面板',
+      'view.toggleStatusbar': '切换状态栏',
       'view.showFiles': '显示文件浏览器',
       'view.showTerminal': '显示终端',
       'view.terminalSelection': '将终端选区发送到输入框',
@@ -1954,10 +1955,7 @@ export const zh: Translations = {
     open: '打开'
   },
 
-  artifactPane: {
-    tabFallback: '产物',
-    modePreview: '预览',
-    modeSource: '源码',
+  artifactPreview: {
     versionOf: (current, total) => `第 ${current}/${total} 版`,
     olderVersion: '较旧版本',
     newerVersion: '较新版本',
@@ -2605,6 +2603,7 @@ export const zh: Translations = {
       gatewayRestarting: '重启中…',
       gatewayTitle: 'Hermes 推理网关状态',
       customizeTitle: '在状态栏中显示',
+      hideStatusbar: '隐藏状态栏',
       toggleApprovalMode: '审批',
       toggleBackendVersion: '后端版本',
       toggleCommandCenter: '命令中心',
